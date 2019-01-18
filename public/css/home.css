@@ -1,0 +1,34 @@
+
+
+body {
+    /* The image used */
+    background-image: url("../assets/images/background.jpg");
+
+    /* Add the blur effect */
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title {
+    font-size: 124px;
+    color: #ffffff;
+    font-family: American Typewriter, serif;
+}
+
+subtitle {
+    font-size: 82px;
+    color: #ffffff;
+    font-family: American Typewriter, serif;
+}
+#hint {
+    font-size: 32px;
+    color: #ffffff;
+    font-family: American Typewriter, serif;
+}
